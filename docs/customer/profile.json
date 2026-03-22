@@ -1,95 +1,190 @@
 {
-  "profile": {
-    "companyName": "",
-    "shortName": "",
-    "isListed": false,
-    "stockCode": "",
-    "website": "",
-    "industry": "",
-    "subIndustry": "",
-    "scale": "",
-    "mainBusiness": "",
-    "products": [],
-    "targetCustomers": [],
-    "businessModel": "",
-    "rating": "",
-    "tags": [],
-
-    "summary": "",
-
-    "registration": {
-      "foundedDate": "",
-      "registeredCapital": "",
-      "paidInCapital": "",
-      "ownershipType": "",
-      "branches": {
-        "count": "",
-        "locations": []
-      },
-      "legalRisks": "",
-      "operatingAnomalies": "",
-      "penalties": "",
-      "summary": ""
+  "id": "changji-tech",
+  "companyName": "宜昌长机科技有限责任公司",
+  "shortName": "长机科技",
+  "registeredName": "宜昌长机科技有限责任公司",
+  "website": "http://www.cjmt.com.cn/",
+  "industry": "高端装备制造",
+  "subIndustry": "金属切削机床—齿轮加工机床",
+  "scale": "中型企业",
+  "stage": "成熟期快速扩张",
+  "type": "国有改制民营企业",
+  "rating": "B+",
+  "tags": ["专精特新小巨人", "单项冠军", "国产替代", "5G工厂", "三线军工转制", "隐形冠军", "高新技术企业", "数字化转型"],
+  "priority": "高",
+  "products": [
+    {
+      "name": "数控插齿机",
+      "description": "9大系列200+规格，加工直径120-5000mm，精度达GB5级",
+      "category": "核心拳头产品",
+      "features": ["力矩电机直驱控制", "电子螺旋导轨", "国产化替代"],
+      "targetUsers": ["汽车", "风电", "航空航天", "工程机械", "船舶"]
     },
-
-    "policyAnalysis": {
-      "isSpecialized": false,
-      "isDigitalTransformation": false,
-      "isESG": false,
-      "isHighTech": false,
-      "policySupportLevel": "",
-      "leverageStrategy": ""
+    {
+      "name": "数控铣齿机",
+      "description": "加工直径800-8000mm圆柱齿轮铣齿机，齿条铣齿机320-3000mm",
+      "category": "大型齿轮加工",
+      "features": ["超大规格加工能力"],
+      "targetUsers": ["风电", "工程机械", "回转支承"]
     },
-
-    "timing": {
-      "currentPhase": "",
-      "evidence": "",
-      "entryStrategy": ""
+    {
+      "name": "数控滚齿机",
+      "description": "大型数控滚齿机",
+      "category": "齿轮粗加工",
+      "features": [],
+      "targetUsers": ["风电", "工程机械"]
     },
-
-    "creditRisk": {
-      "legalRisk": "",
-      "operationalRisk": "",
-      "creditRating": "",
-      "warnings": [],
-      "salesAdvice": ""
+    {
+      "name": "数控刮齿机",
+      "description": "高效齿轮精加工设备",
+      "category": "齿轮精加工",
+      "features": ["力矩电机直驱"],
+      "targetUsers": ["汽车", "减速机"]
     },
-
-    "organization": {
-      "type": "",
-      "decisionChain": "",
-      "keyPersons": [],
-      "salesStrategy": ""
+    {
+      "name": "数控磨齿机",
+      "description": "数控齿条磨齿机",
+      "category": "齿轮精加工",
+      "features": [],
+      "targetUsers": ["高精度齿轮加工"]
     },
-
-    "strategy": {
-      "phase": "",
-      "growthStage": "",
-      "competitivePosition": "",
-      "digitalMaturity": "",
-      "analysisPath": "",
-      "informationQuality": "",
-      "expansionSignals": [],
-      "contractionSignals": [],
-      "riskSignals": []
-    },
-
-    "techStack": {
-      "current": [],
-      "inferred": [],
-      "maturity": "",
-      "direction": ""
-    },
-
-    "keyMetrics": [],
-
-    "metadata": {
-      "createdAt": "",
-      "updatedAt": "",
-      "createdBy": "",
-      "version": "",
-      "sources": [],
-      "confidence": 0
+    {
+      "name": "齿轮机床再制造服务",
+      "description": "存量设备再制造升级",
+      "category": "后市场服务",
+      "features": ["全生命周期服务延伸"],
+      "targetUsers": ["存量设备客户"]
     }
+  ],
+  "mainBusiness": "全系列齿轮加工机床研发制造及成套解决方案",
+  "targetCustomers": ["汽车主机厂及零部件企业", "风电整机及齿轮箱企业", "工程机械龙头", "航空航天军工单位", "矿山/港机/船舶重型装备企业"],
+  "businessModel": "大型装备制造+项目制销售，正向设备+工艺装备+再制造全生命周期服务模式延伸",
+  "techStack": {
+    "current": ["5G专网（车间级）", "工业数控系统（华中数控合作，数控化率90%+）", "两化融合管理体系", "ISO三标管理体系"],
+    "inferred": ["传统ERP系统（用友/金蝶）[假设待验证]", "CAD/CAM/CAPP[假设待验证]", "OA办公系统[假设待验证]"],
+    "maturity": "车间层领先、经营管理层滞后",
+    "direction": "5G工厂扩展、设备互联互通、数据驱动决策"
+  },
+  "strategy": {
+    "phase": "扩张上升期——产能倍增后的管理瓶颈窗口",
+    "growthStage": "成熟期快速扩张——50年老厂在新能源/风电/汽车齿轮需求爆发下迎来第二增长曲线",
+    "competitivePosition": "细分领域绝对龙头——插齿机国内70%市场份额，品类王",
+    "digitalMaturity": "车间自动化领先、经营管理数字化初级",
+    "analysisPath": "B+",
+    "informationQuality": "高（85%）",
+    "expansionSignals": [
+      "月产翻倍至40台，近百台在组装",
+      "5G工厂计划扩展至全部6个车间",
+      "三一重工53台、比亚迪35台大单",
+      "启动2026年校招27岗",
+      "力矩电机直驱技术突破"
+    ],
+    "contractionSignals": [],
+    "riskSignals": [
+      "灵魂人物叶又生年龄渐长，接班人计划不明",
+      "注册资本长期未增资，公司治理现代化程度存疑"
+    ]
+  },
+  "painPoints": [
+    {
+      "category": "生产管理",
+      "description": "月产从20台跃升到40台，200+规格多品种小批量+大单插单并行，排产复杂度指数级增长",
+      "severity": "高",
+      "source": "产能数据+产品线宽度推演"
+    },
+    {
+      "category": "质量管理",
+      "description": "GB5级精度+大客户审厂要求，质量追溯闭环是硬性要求",
+      "severity": "高",
+      "source": "产品精度要求+大客户特征推演"
+    },
+    {
+      "category": "成本核算",
+      "description": "200+规格、单台均价约57万、定制化程度高，单台利润核算极其复杂",
+      "severity": "中",
+      "source": "产品复杂度+订单金额推演"
+    },
+    {
+      "category": "供应链管理",
+      "description": "近百台机床同时组装调试，BOM复杂度高，关键零部件涉及国产替代",
+      "severity": "中",
+      "source": "产能数据+技术特征推演"
+    },
+    {
+      "category": "设备管理",
+      "description": "500+台设备满负荷运转，停机代价极高，预测性维护需求迫切",
+      "severity": "中",
+      "source": "设备数量+5G基础推演"
+    },
+    {
+      "category": "订单管理",
+      "description": "大型机床交付周期3-6个月，客户对交期可视化需求强烈",
+      "severity": "中",
+      "source": "产品特性+大客户需求推演"
+    }
+  ],
+  "requirements": [],
+  "opportunities": [
+    {
+      "area": "MES/APS智能排产",
+      "description": "200+规格多品种小批量+大单插单并行，5G工厂提供数据采集基础，缺数据→排产决策的智能中间层",
+      "valueProp": "排产效率提升30%+，交期准确率提升，释放产能瓶颈",
+      "likelihood": "高"
+    },
+    {
+      "area": "质量追溯与SPC",
+      "description": "GB5级精度+大客户审厂要求，5G+数控设备已能采集过程数据，缺质量分析和追溯系统",
+      "valueProp": "满足大客户供应商审核要求，降低质量成本",
+      "likelihood": "高"
+    },
+    {
+      "area": "5G工厂二期数字化配套",
+      "description": "首个车间已回本，正扩展到其余5个车间，配套MES/WMS/QMS是刚性需求",
+      "valueProp": "与5G基础设施配套，让硬件投入真正产生管理价值",
+      "likelihood": "高"
+    },
+    {
+      "area": "供应链协同平台",
+      "description": "三一、比亚迪等大客户对供应商数字化协同有明确要求",
+      "valueProp": "满足大客户数字化协同要求，稳固大客户关系",
+      "likelihood": "中"
+    },
+    {
+      "area": "设备OEE与预测性维护",
+      "description": "500+台设备、5G网络已铺设、产能满负荷",
+      "valueProp": "减少非计划停机，OEE提升5-10%",
+      "likelihood": "中"
+    }
+  ],
+  "contacts": [],
+  "budget": {
+    "range": "",
+    "deliveryTime": "",
+    "paymentCycle": "",
+    "decisionCycle": "中大型项目3-6个月，标准采购1-2个月",
+    "intentionLevel": 0,
+    "stage": ""
+  },
+  "decision": {
+    "makers": ["董事长 叶又生"],
+    "influencers": ["总经理/副总经理", "研发中心负责人", "信息化/智能制造负责人", "财务总监"],
+    "criteria": ["董事长拍板制，重大采购决策集中在叶又生及核心管理层", "技术类采购征求研发中心意见", "500人规模传统制造业，中层执行力强但自主决策权有限"],
+    "timeline": "中大型项目3-6个月，标准采购1-2个月"
+  },
+  "tracking": {
+    "status": "新建",
+    "stage": "档案建立",
+    "nextAction": "首次拜访",
+    "lastUpdate": "2026-03-22",
+    "touchpoints": []
+  },
+  "metadata": {
+    "createdAt": "2026-03-22T00:00:00.000Z",
+    "updatedAt": "2026-03-22T00:00:00.000Z",
+    "createdBy": "AI",
+    "version": "1.0",
+    "sources": [],
+    "confidence": 85,
+    "notes": "军工三线基因的齿轮机床隐形冠军，插齿机国内份额70%，正从设备卖家向5G智造+全生命周期服务转型。产能翻倍但数字化底座仍在补课阶段，管理系统升级需求窗口已打开。"
   }
 }
